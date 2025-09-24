@@ -1,0 +1,6 @@
+
+1. Hacer "javac Opcion1.java Opcion2.java Launcher.java" para compilar los archivos java.
+2. Ejecutar "java Launcher" para correr el programa que maneja el uso de Opcion 1 y Opcion 2, o tambien se puede correrlos directamente con javac.
+
+Nota: El archivo de entrada es config.txt y se asume que esta en la misma carpeta que los archivos .java
+
