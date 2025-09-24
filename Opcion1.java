@@ -3,7 +3,7 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 
-public class Simulador {
+public class Opcion1 {
 
     public static void main(String[] args) {
 
@@ -14,7 +14,8 @@ public class Simulador {
         String configPath = args[0]; // Ruta del archivo de configuracion
 
         int TP = 0; // Tamaño de pagina
-        int NPROC = 0; // Numero de procesos, en realidad los necesitamos para la opcion 2 por ahora no sirve la vd
+        int NPROC = 0; // Numero de procesos, en realidad los necesitamos para la opcion 2 por ahora no
+                       // sirve la vd
         String[] tams = new String[0]; // Tamaños de matrices por proceso (ejemplo: [2x2, 4x4])
 
         // Leer el archivo de configuracion
